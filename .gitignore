@@ -1,0 +1,4 @@
+
+# Large model checkpoints
+*.pt
+stance_bert.pt
