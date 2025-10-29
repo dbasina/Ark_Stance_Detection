@@ -1,0 +1,15 @@
+{'GPU': None, 'model_name': 'stance_bert_masked', 'init': 'Random', 'pretrained_weights': None, 'from_checkpoint': False, 'dataset_list': ['MaskedABSA_race'], 'batch_size': 32, 'epochs': 200, 'exp_name': '', 'ema_mode': 'epoch', 'momentum_teacher': 0.9, 'pretrain_epochs': 5, 'test_epoch': 1, 'val_loss_metric': 'average', 'projector_features': 1376, 'use_mlp': False, 'opt': 'momentum', 'opt_eps': 1e-08, 'opt_betas': None, 'clip_grad': None, 'momentum': 0.9, 'weight_decay': 0.0, 'sched': 'cosine', 'lr': 0.0005, 'lr_noise': None, 'lr_noise_pct': 0.67, 'lr_noise_std': 1.0, 'warmup_lr': 1e-06, 'min_lr': 1e-05, 'decay_epochs': 30, 'warmup_epochs': 0, 'cooldown_epochs': 10, 'decay_rate': 0.5, 'patience_epochs': 10, 'resume': False, 'workers': 4, 'print_freq': 50, 'test_augment': True, 'anno_percent': 1, 'device': 'cuda', 'activate': 'Sigmoid', 'uncertain_label': 'LSR-Ones', 'unknown_label': 0, 'individual': False, 'unmasked': False}Epoch 0000: avg_val_loss = 0.42255 
+     Datasets  : ['MaskedABSA_race']
+     Val Losses: [0.42254747467479487]
+Epoch 0001: avg_val_loss = 0.42219 
+     Datasets  : ['MaskedABSA_race']
+     Val Losses: [0.4221853089743647]
+Epoch 0002: avg_val_loss = 0.41936 
+     Datasets  : ['MaskedABSA_race']
+     Val Losses: [0.41935989911528837]
+Epoch 0003: avg_val_loss = 0.41617 
+     Datasets  : ['MaskedABSA_race']
+     Val Losses: [0.4161699232698857]
+Epoch 0004: avg_val_loss = 0.41494 
+     Datasets  : ['MaskedABSA_race']
+     Val Losses: [0.41494194118455907]

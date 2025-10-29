@@ -1,0 +1,84 @@
+Omni-pretraining stage:
+Epoch 0000:
+MaskedABSA_race Validation Loss = 0.42255:
+MaskedABSA_race: 
+Student ACCURACY = 0.8046, 
+Teacher ACCURACY = 0.7356
+MaskedABSA_race: 
+Student AUC = [0.5454	0.5118], 
+Teacher AUC = [0.5059	0.4445]
+MaskedABSA_race: Student mAUC = 0.5286, Teacher mAUC = 0.4752
+
+Omni-pretraining stage:
+Epoch 0001:
+MaskedABSA_race Validation Loss = 0.42219:
+MaskedABSA_race: 
+Student ACCURACY = 0.8046, 
+Teacher ACCURACY = 0.8046
+MaskedABSA_race: 
+Student AUC = [0.584 	0.5588], 
+Teacher AUC = [0.5353	0.4706]
+MaskedABSA_race: Student mAUC = 0.5714, Teacher mAUC = 0.5029
+
+Omni-pretraining stage:
+Epoch 0002:
+MaskedABSA_race Validation Loss = 0.41936:
+MaskedABSA_race: 
+Student ACCURACY = 0.8046, 
+Teacher ACCURACY = 0.8046
+MaskedABSA_race: 
+Student AUC = [0.6286	0.6008], 
+Teacher AUC = [0.5563	0.484 ]
+MaskedABSA_race: Student mAUC = 0.6147, Teacher mAUC = 0.5202
+
+Omni-pretraining stage:
+Epoch 0003:
+MaskedABSA_race Validation Loss = 0.41617:
+MaskedABSA_race: 
+Student ACCURACY = 0.8046, 
+Teacher ACCURACY = 0.8046
+MaskedABSA_race: 
+Student AUC = [0.6387	0.6176], 
+Teacher AUC = [0.5748	0.4933]
+MaskedABSA_race: Student mAUC = 0.6282, Teacher mAUC = 0.5340
+
+Omni-pretraining stage:
+Epoch 0004:
+MaskedABSA_race Validation Loss = 0.41494:
+MaskedABSA_race: 
+Student ACCURACY = 0.8046, 
+Teacher ACCURACY = 0.8046
+MaskedABSA_race: 
+Student AUC = [0.6622	0.6496], 
+Teacher AUC = [0.5807	0.4975]
+MaskedABSA_race: Student mAUC = 0.6559, Teacher mAUC = 0.5391
+
+
+
+Final Results after Omni-pretraining on datasets ['MaskedABSA_race'] for 5 epochs:
+Omni-pretraining stage: 
+Student Accuracy = 
+[[0.8046]
+ [0.8046]
+ [0.8046]
+ [0.8046]
+ [0.8046]] 
+Teacher Accuracy = 
+[[0.7356]
+ [0.8046]
+ [0.8046]
+ [0.8046]
+ [0.8046]]
+Omni-pretraining stage: 
+Student meanAUC = 
+[[0.5286]
+ [0.5714]
+ [0.6147]
+ [0.6282]
+ [0.6559]] 
+Teacher meanAUC = 
+[[0.4752]
+ [0.5029]
+ [0.5202]
+ [0.534 ]
+ [0.5391]]

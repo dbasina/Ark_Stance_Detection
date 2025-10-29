@@ -1,0 +1,40 @@
+{'GPU': None, 'model_name': 'stance_bert_masked', 'init': 'Random', 'pretrained_weights': None, 'from_checkpoint': False, 'dataset_list': ['MaskedABSA_politic', 'MaskedABSA_race'], 'batch_size': 32, 'epochs': 200, 'exp_name': '', 'ema_mode': 'epoch', 'momentum_teacher': 0.9, 'pretrain_epochs': 5, 'test_epoch': 1, 'val_loss_metric': 'average', 'projector_features': 1376, 'use_mlp': False, 'opt': 'momentum', 'opt_eps': 1e-08, 'opt_betas': None, 'clip_grad': None, 'momentum': 0.9, 'weight_decay': 0.0, 'sched': 'cosine', 'lr': 0.0005, 'lr_noise': None, 'lr_noise_pct': 0.67, 'lr_noise_std': 1.0, 'warmup_lr': 1e-06, 'min_lr': 1e-05, 'decay_epochs': 30, 'warmup_epochs': 0, 'cooldown_epochs': 10, 'decay_rate': 0.5, 'patience_epochs': 10, 'resume': False, 'workers': 4, 'print_freq': 50, 'test_augment': True, 'anno_percent': 10, 'device': 'cuda', 'activate': 'Sigmoid', 'uncertain_label': 'LSR-Ones', 'unknown_label': 0, 'individual': False, 'unmasked': False}Epoch 0000: avg_val_loss = 0.48166 
+     Datasets  : ['MaskedABSA_politic', 'MaskedABSA_race']
+     Val Losses: [0.5565676007530477, 0.4067563368487604]
+Epoch 0001: avg_val_loss = 0.44769 
+     Datasets  : ['MaskedABSA_politic', 'MaskedABSA_race']
+     Val Losses: [0.5282208589043947, 0.367165606507321]
+Epoch 0002: avg_val_loss = 0.42292 
+     Datasets  : ['MaskedABSA_politic', 'MaskedABSA_race']
+     Val Losses: [0.5273242914440608, 0.31852326831457134]
+{'GPU': None, 'model_name': 'stance_bert_masked', 'init': 'Random', 'pretrained_weights': None, 'from_checkpoint': False, 'dataset_list': ['MaskedABSA_politic', 'MaskedABSA_race'], 'batch_size': 32, 'epochs': 200, 'exp_name': '', 'ema_mode': 'epoch', 'momentum_teacher': 0.9, 'pretrain_epochs': 5, 'test_epoch': 1, 'val_loss_metric': 'average', 'projector_features': 1376, 'use_mlp': False, 'opt': 'momentum', 'opt_eps': 1e-08, 'opt_betas': None, 'clip_grad': None, 'momentum': 0.9, 'weight_decay': 0.0, 'sched': 'cosine', 'lr': 0.0005, 'lr_noise': None, 'lr_noise_pct': 0.67, 'lr_noise_std': 1.0, 'warmup_lr': 1e-06, 'min_lr': 1e-05, 'decay_epochs': 30, 'warmup_epochs': 0, 'cooldown_epochs': 10, 'decay_rate': 0.5, 'patience_epochs': 10, 'resume': False, 'workers': 4, 'print_freq': 50, 'test_augment': True, 'anno_percent': 10, 'device': 'cuda', 'activate': 'Sigmoid', 'uncertain_label': 'LSR-Ones', 'unknown_label': 0, 'individual': False, 'unmasked': False}Epoch 0000: avg_val_loss = 0.49568 
+     Datasets  : ['MaskedABSA_politic', 'MaskedABSA_race']
+     Val Losses: [0.5865480173932444, 0.404818760945898]
+Epoch 0001: avg_val_loss = 0.44548 
+     Datasets  : ['MaskedABSA_politic', 'MaskedABSA_race']
+     Val Losses: [0.5280031455625401, 0.3629641921045035]
+Epoch 0002: avg_val_loss = 0.41731 
+     Datasets  : ['MaskedABSA_politic', 'MaskedABSA_race']
+     Val Losses: [0.5246681054629901, 0.3099580084454836]
+Epoch 0003: avg_val_loss = 0.40449 
+     Datasets  : ['MaskedABSA_politic', 'MaskedABSA_race']
+     Val Losses: [0.5251197755926906, 0.28385310320510077]
+Epoch 0004: avg_val_loss = 0.40162 
+     Datasets  : ['MaskedABSA_politic', 'MaskedABSA_race']
+     Val Losses: [0.5291180938187212, 0.2741152613177332]
+{'GPU': None, 'model_name': 'stance_bert_masked', 'init': 'Random', 'pretrained_weights': None, 'from_checkpoint': False, 'dataset_list': ['MaskedABSA_politic', 'MaskedABSA_race'], 'batch_size': 32, 'epochs': 200, 'exp_name': '', 'ema_mode': 'epoch', 'momentum_teacher': 0.9, 'pretrain_epochs': 5, 'test_epoch': 1, 'val_loss_metric': 'average', 'projector_features': 1376, 'use_mlp': False, 'opt': 'momentum', 'opt_eps': 1e-08, 'opt_betas': None, 'clip_grad': None, 'momentum': 0.9, 'weight_decay': 0.0, 'sched': 'cosine', 'lr': 0.0005, 'lr_noise': None, 'lr_noise_pct': 0.67, 'lr_noise_std': 1.0, 'warmup_lr': 1e-06, 'min_lr': 1e-05, 'decay_epochs': 30, 'warmup_epochs': 0, 'cooldown_epochs': 10, 'decay_rate': 0.5, 'patience_epochs': 10, 'resume': False, 'workers': 4, 'print_freq': 50, 'test_augment': True, 'anno_percent': 10, 'device': 'cuda', 'activate': 'Sigmoid', 'uncertain_label': 'LSR-Ones', 'unknown_label': 0, 'individual': False, 'unmasked': False}Epoch 0000: avg_val_loss = 0.49266 
+     Datasets  : ['MaskedABSA_politic', 'MaskedABSA_race']
+     Val Losses: [0.5795557271726061, 0.4057636119655727]
+Epoch 0001: avg_val_loss = 0.45217 
+     Datasets  : ['MaskedABSA_politic', 'MaskedABSA_race']
+     Val Losses: [0.532869156929526, 0.37147084844617634]
+Epoch 0002: avg_val_loss = 0.42519 
+     Datasets  : ['MaskedABSA_politic', 'MaskedABSA_race']
+     Val Losses: [0.5250579080369213, 0.32532783550768235]
+Epoch 0003: avg_val_loss = 0.40712 
+     Datasets  : ['MaskedABSA_politic', 'MaskedABSA_race']
+     Val Losses: [0.5228802594217924, 0.2913502691503516]
+Epoch 0004: avg_val_loss = 0.40163 
+     Datasets  : ['MaskedABSA_politic', 'MaskedABSA_race']
+     Val Losses: [0.5241879785414969, 0.27907133721165095]
+{'GPU': None, 'model_name': 'stance_bert_masked', 'init': 'Random', 'pretrained_weights': None, 'from_checkpoint': False, 'dataset_list': ['MaskedABSA_politic', 'MaskedABSA_race'], 'batch_size': 32, 'epochs': 200, 'exp_name': '', 'ema_mode': 'epoch', 'momentum_teacher': 0.9, 'pretrain_epochs': 5, 'test_epoch': 1, 'val_loss_metric': 'average', 'projector_features': 1376, 'use_mlp': False, 'opt': 'momentum', 'opt_eps': 1e-08, 'opt_betas': None, 'clip_grad': None, 'momentum': 0.9, 'weight_decay': 0.0, 'sched': 'cosine', 'lr': 0.0005, 'lr_noise': None, 'lr_noise_pct': 0.67, 'lr_noise_std': 1.0, 'warmup_lr': 1e-06, 'min_lr': 1e-05, 'decay_epochs': 30, 'warmup_epochs': 0, 'cooldown_epochs': 10, 'decay_rate': 0.5, 'patience_epochs': 10, 'resume': False, 'workers': 4, 'print_freq': 50, 'test_augment': True, 'anno_percent': 10, 'device': 'cuda', 'activate': 'Sigmoid', 'uncertain_label': 'LSR-Ones', 'unknown_label': 0, 'individual': False, 'unmasked': False}

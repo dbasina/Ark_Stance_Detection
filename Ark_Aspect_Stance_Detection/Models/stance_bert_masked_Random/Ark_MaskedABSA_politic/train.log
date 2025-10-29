@@ -1,0 +1,30 @@
+{'GPU': None, 'model_name': 'stance_bert_masked', 'init': 'Random', 'pretrained_weights': None, 'from_checkpoint': False, 'dataset_list': ['MaskedABSA_politic'], 'batch_size': 32, 'epochs': 200, 'exp_name': '', 'ema_mode': 'epoch', 'momentum_teacher': 0.9, 'pretrain_epochs': 5, 'test_epoch': 1, 'val_loss_metric': 'average', 'projector_features': 1376, 'use_mlp': False, 'opt': 'momentum', 'opt_eps': 1e-08, 'opt_betas': None, 'clip_grad': None, 'momentum': 0.9, 'weight_decay': 0.0, 'sched': 'cosine', 'lr': 0.0005, 'lr_noise': None, 'lr_noise_pct': 0.67, 'lr_noise_std': 1.0, 'warmup_lr': 1e-06, 'min_lr': 1e-05, 'decay_epochs': 30, 'warmup_epochs': 0, 'cooldown_epochs': 10, 'decay_rate': 0.5, 'patience_epochs': 10, 'resume': False, 'workers': 4, 'print_freq': 50, 'test_augment': True, 'anno_percent': 1, 'device': 'cuda', 'activate': 'Sigmoid', 'uncertain_label': 'LSR-Ones', 'unknown_label': 0, 'individual': False, 'unmasked': False}Epoch 0000: avg_val_loss = 0.65407 
+     Datasets  : ['MaskedABSA_politic']
+     Val Losses: [0.6540736556053162]
+Epoch 0001: avg_val_loss = 0.64401 
+     Datasets  : ['MaskedABSA_politic']
+     Val Losses: [0.6440095901489258]
+Epoch 0002: avg_val_loss = 0.63102 
+     Datasets  : ['MaskedABSA_politic']
+     Val Losses: [0.6310157179832458]
+Epoch 0003: avg_val_loss = 0.61644 
+     Datasets  : ['MaskedABSA_politic']
+     Val Losses: [0.6164445877075195]
+Epoch 0004: avg_val_loss = 0.60131 
+     Datasets  : ['MaskedABSA_politic']
+     Val Losses: [0.6013119220733643]
+{'GPU': None, 'model_name': 'stance_bert_masked', 'init': 'Random', 'pretrained_weights': None, 'from_checkpoint': False, 'dataset_list': ['MaskedABSA_politic'], 'batch_size': 32, 'epochs': 200, 'exp_name': '', 'ema_mode': 'epoch', 'momentum_teacher': 0.9, 'pretrain_epochs': 5, 'test_epoch': 1, 'val_loss_metric': 'average', 'projector_features': 1376, 'use_mlp': False, 'opt': 'momentum', 'opt_eps': 1e-08, 'opt_betas': None, 'clip_grad': None, 'momentum': 0.9, 'weight_decay': 0.0, 'sched': 'cosine', 'lr': 0.0005, 'lr_noise': None, 'lr_noise_pct': 0.67, 'lr_noise_std': 1.0, 'warmup_lr': 1e-06, 'min_lr': 1e-05, 'decay_epochs': 30, 'warmup_epochs': 0, 'cooldown_epochs': 10, 'decay_rate': 0.5, 'patience_epochs': 10, 'resume': False, 'workers': 4, 'print_freq': 50, 'test_augment': True, 'anno_percent': 10, 'device': 'cuda', 'activate': 'Sigmoid', 'uncertain_label': 'LSR-Ones', 'unknown_label': 0, 'individual': False, 'unmasked': False}Epoch 0000: avg_val_loss = 0.57382 
+     Datasets  : ['MaskedABSA_politic']
+     Val Losses: [0.5738150583635463]
+Epoch 0001: avg_val_loss = 0.53314 
+     Datasets  : ['MaskedABSA_politic']
+     Val Losses: [0.5331402494765745]
+Epoch 0002: avg_val_loss = 0.52668 
+     Datasets  : ['MaskedABSA_politic']
+     Val Losses: [0.5266798165174994]
+Epoch 0003: avg_val_loss = 0.52852 
+     Datasets  : ['MaskedABSA_politic']
+     Val Losses: [0.5285235374870867]
+Epoch 0004: avg_val_loss = 0.53136 
+     Datasets  : ['MaskedABSA_politic']
+     Val Losses: [0.5313580458117003]

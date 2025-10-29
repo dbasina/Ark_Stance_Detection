@@ -1,0 +1,273 @@
+
+Per-aspect summary (train split)
+Aspect                        | Present | Known | Pos | Neg | PosRate | PosWeight(neg/pos)
+---------------------------------------------------------------------------------------------
+white supremacists            |      16 |    16 |   0 |  16 | 0.000   | nan
+lie                           |       0 |     0 |   0 |   0 | nan     | nan
+killer                        |       3 |     3 |   0 |   3 | 0.000   | nan
+white supremacist             |      23 |    23 |   0 |  23 | 0.000   | nan
+mass shooter                  |       0 |     0 |   0 |   0 | nan     | nan
+shooter                       |       6 |     6 |   0 |   6 | 0.000   | nan
+violence                      |      26 |    26 |   0 |  26 | 0.000   | nan
+border                        |       1 |     1 |   1 |   0 | 1.000   | 0.000
+shooting                      |       1 |     1 |   0 |   1 | 0.000   | nan
+human trafficking             |       0 |     0 |   0 |   0 | nan     | nan
+killing                       |      19 |    19 |   0 |  19 | 0.000   | nan
+murderer                      |       0 |     0 |   0 |   0 | nan     | nan
+lies                          |       0 |     0 |   0 |   0 | nan     | nan
+terrorists                    |       2 |     2 |   0 |   2 | 0.000   | nan
+murder                        |      13 |    13 |   0 |  13 | 0.000   | nan
+crimes                        |       4 |     4 |   0 |   4 | 0.000   | nan
+false narrative               |       0 |     0 |   0 |   0 | nan     | nan
+false flag                    |       0 |     0 |   0 |   0 | nan     | nan
+terror                        |       0 |     0 |   0 |   0 | nan     | nan
+psyops                        |       0 |     0 |   0 |   0 | nan     | nan
+chokehold                     |       2 |     2 |   0 |   2 | 0.000   | nan
+racist                        |      65 |    65 |   0 |  65 | 0.000   | nan
+black americans               |       7 |     7 |   7 |   0 | 1.000   | 0.000
+african american              |       0 |     0 |   0 |   0 | nan     | nan
+democrats                     |      17 |    17 |   1 |  16 | 0.059   | 16.000
+african americans             |       1 |     1 |   0 |   1 | 0.000   | nan
+systemic racism               |       3 |     3 |   0 |   3 | 0.000   | nan
+white americans               |       1 |     1 |   1 |   0 | 1.000   | 0.000
+institutional racism          |       0 |     0 |   0 |   0 | nan     | nan
+joe biden                     |       2 |     2 |   0 |   2 | 0.000   | nan
+biden                         |      14 |    14 |   0 |  14 | 0.000   | nan
+crime                         |      17 |    17 |   0 |  17 | 0.000   | nan
+domestic terrorist            |       1 |     1 |   0 |   1 | 0.000   | nan
+racists                       |       3 |     3 |   0 |   3 | 0.000   | nan
+democrat                      |       5 |     5 |   0 |   5 | 0.000   | nan
+biden administration          |       0 |     0 |   0 |   0 | nan     | nan
+economy                       |       4 |     4 |   4 |   0 | 1.000   | 0.000
+criminals                     |       2 |     2 |   0 |   2 | 0.000   | nan
+segregation                   |       2 |     2 |   0 |   2 | 0.000   | nan
+whites                        |       1 |     1 |   1 |   0 | 1.000   | 0.000
+joe                           |       2 |     2 |   0 |   2 | 0.000   | nan
+white race                    |       0 |     0 |   0 |   0 | nan     | nan
+black vote                    |       1 |     1 |   0 |   1 | 0.000   | nan
+white people                  |       3 |     3 |   3 |   0 | 1.000   | 0.000
+democrat party                |       1 |     1 |   0 |   1 | 0.000   | nan
+newsom                        |       1 |     1 |   0 |   1 | 0.000   | nan
+democratic party              |       2 |     2 |   0 |   2 | 0.000   | nan
+dem                           |       0 |     0 |   0 |   0 | nan     | nan
+white women                   |       0 |     0 |   0 |   0 | nan     | nan
+white folks                   |       1 |     1 |   1 |   0 | 1.000   | 0.000
+white person                  |       0 |     0 |   0 |   0 | nan     | nan
+apartheid                     |       2 |     2 |   0 |   2 | 0.000   | nan
+patriot                       |       0 |     0 |   0 |   0 | nan     | nan
+christian                     |      20 |    20 |   8 |  12 | 0.400   | 1.500
+liberals                      |       2 |     2 |   1 |   1 | 0.500   | 1.000
+hate crime                    |       1 |     1 |   0 |   1 | 0.000   | nan
+republicans                   |      14 |    14 |   0 |  14 | 0.000   | nan
+republican                    |       8 |     8 |   1 |   7 | 0.125   | 7.000
+jane fonda                    |       4 |     4 |   0 |   4 | 0.000   | nan
+christians                    |       1 |     1 |   0 |   1 | 0.000   | nan
+climate change                |       0 |     0 |   0 |   0 | nan     | nan
+white men                     |       4 |     4 |   4 |   0 | 1.000   | 0.000
+climate crisis                |       4 |     4 |   0 |   4 | 0.000   | nan
+school                        |       4 |     4 |   2 |   2 | 0.500   | 1.000
+catholic                      |       0 |     0 |   0 |   0 | nan     | nan
+schools                       |       2 |     2 |   0 |   2 | 0.000   | nan
+university                    |       1 |     1 |   0 |   1 | 0.000   | nan
+discrimination                |       5 |     5 |   0 |   5 | 0.000   | nan
+blm                           |      18 |    18 |   0 |  18 | 0.000   | nan
+american                      |       3 |     3 |   3 |   0 | 1.000   | 0.000
+mob                           |       5 |     5 |   0 |   5 | 0.000   | nan
+justice                       |       6 |     6 |   6 |   0 | 1.000   | 0.000
+americans                     |       5 |     5 |   5 |   0 | 1.000   | 0.000
+black people                  |       4 |     4 |   4 |   0 | 1.000   | 0.000
+domestic terrorists           |       2 |     2 |   0 |   2 | 0.000   | nan
+murders                       |       2 |     2 |   0 |   2 | 0.000   | nan
+woke                          |       4 |     4 |   0 |   4 | 0.000   | nan
+america                       |       2 |     2 |   2 |   0 | 1.000   | 0.000
+patriots                      |       0 |     0 |   0 |   0 | nan     | nan
+diversity                     |       3 |     3 |   2 |   1 | 0.667   | 0.500
+inclusion                     |       0 |     0 |   0 |   0 | nan     | nan
+family                        |       2 |     2 |   2 |   0 | 1.000   | 0.000
+families                      |       0 |     0 |   0 |   0 | nan     | nan
+dems                          |       1 |     1 |   0 |   1 | 0.000   | nan
+white house                   |       5 |     5 |   0 |   5 | 0.000   | nan
+border crisis                 |       1 |     1 |   0 |   1 | 0.000   | nan
+corruption                    |       1 |     1 |   0 |   1 | 0.000   | nan
+house                         |       6 |     6 |   6 |   0 | 1.000   | 0.000
+american people               |       0 |     0 |   0 |   0 | nan     | nan
+protest                       |       0 |     0 |   0 |   0 | nan     | nan
+bbc                           |       0 |     0 |   0 |   0 | nan     | nan
+netflix                       |       0 |     0 |   0 |   0 | nan     | nan
+race card                     |       0 |     0 |   0 |   0 | nan     | nan
+trump                         |      26 |    26 |   0 |  26 | 0.000   | nan
+president trump               |       0 |     0 |   0 |   0 | nan     | nan
+obama                         |       2 |     2 |   0 |   2 | 0.000   | nan
+bill clinton                  |       0 |     0 |   0 |   0 | nan     | nan
+bill                          |       1 |     1 |   0 |   1 | 0.000   | nan
+kkk                           |       4 |     4 |   0 |   4 | 0.000   | nan
+blacks                        |       1 |     1 |   1 |   0 | 1.000   | 0.000
+confederacy                   |       0 |     0 |   0 |   0 | nan     | nan
+antifa                        |      12 |    12 |   2 |  10 | 0.167   | 5.000
+maga                          |      29 |    29 |   0 |  29 | 0.000   | nan
+j6                            |       0 |     0 |   0 |   0 | nan     | nan
+insurrection                  |       3 |     3 |   0 |   3 | 0.000   | nan
+fbi                           |       0 |     0 |   0 |   0 | nan     | nan
+girls                         |       0 |     0 |   0 |   0 | nan     | nan
+hindus                        |       0 |     0 |   0 |   0 | nan     | nan
+police brutality              |       1 |     1 |   0 |   1 | 0.000   | nan
+constitution                  |       0 |     0 |   0 |   0 | nan     | nan
+riot                          |       1 |     1 |   0 |   1 | 0.000   | nan
+rioters                       |       0 |     0 |   0 |   0 | nan     | nan
+riots                         |       1 |     1 |   0 |   1 | 0.000   | nan
+2020 riots                    |       1 |     1 |   0 |   1 | 0.000   | nan
+protesters                    |       0 |     0 |   0 |   0 | nan     | nan
+law                           |       5 |     5 |   1 |   4 | 0.200   | 4.000
+terrorism                     |       3 |     3 |   0 |   3 | 0.000   | nan
+antifa trans                  |       0 |     0 |   0 |   0 | nan     | nan
+jesus                         |       1 |     1 |   1 |   0 | 1.000   | 0.000
+faith                         |       0 |     0 |   0 |   0 | nan     | nan
+illegals                      |       0 |     0 |   0 |   0 | nan     | nan
+bidens                        |       0 |     0 |   0 |   0 | nan     | nan
+justice system                |       0 |     0 |   0 |   0 | nan     | nan
+illegal immigrants            |       0 |     0 |   0 |   0 | nan     | nan
+dangerous terrorist threat    |       0 |     0 |   0 |   0 | nan     | nan
+white america                 |       0 |     0 |   0 |   0 | nan     | nan
+lynching                      |       0 |     0 |   0 |   0 | nan     | nan
+culture                       |       0 |     0 |   0 |   0 | nan     | nan
+steve bannon                  |       0 |     0 |   0 |   0 | nan     | nan
+democracy                     |       3 |     3 |   3 |   0 | 1.000   | 0.000
+racist country                |       0 |     0 |   0 |   0 | nan     | nan
+injustice                     |       0 |     0 |   0 |   0 | nan     | nan
+white nationalism             |       1 |     1 |   0 |   1 | 0.000   | nan
+domestic terrorism            |       2 |     2 |   0 |   2 | 0.000   | nan
+manufactured crisis           |       2 |     2 |   0 |   2 | 0.000   | nan
+maga republicans              |       2 |     2 |   0 |   2 | 0.000   | nan
+veterans                      |       3 |     3 |   3 |   0 | 1.000   | 0.000
+education                     |       0 |     0 |   0 |   0 | nan     | nan
+health care                   |       0 |     0 |   0 |   0 | nan     | nan
+jobs                          |       1 |     1 |   1 |   0 | 1.000   | 0.000
+student                       |       1 |     1 |   1 |   0 | 1.000   | 0.000
+books                         |       3 |     3 |   3 |   0 | 1.000   | 0.000
+kids                          |       2 |     2 |   2 |   0 | 1.000   | 0.000
+book                          |       6 |     6 |   6 |   0 | 1.000   | 0.000
+children                      |       5 |     5 |   5 |   0 | 1.000   | 0.000
+child                         |       0 |     0 |   0 |   0 | nan     | nan
+conservatives                 |       2 |     2 |   0 |   2 | 0.000   | nan
+jordan neely                  |       4 |     4 |   4 |   0 | 1.000   | 0.000
+white man                     |       0 |     0 |   0 |   0 | nan     | nan
+black man                     |       0 |     0 |   0 |   0 | nan     | nan
+death                         |       2 |     2 |   0 |   2 | 0.000   | nan
+daniel penny                  |       1 |     1 |   0 |   1 | 0.000   | nan
+homeless black man            |       1 |     1 |   1 |   0 | 1.000   | 0.000
+homeless                      |       0 |     0 |   0 |   0 | nan     | nan
+jordan neelys                 |       0 |     0 |   0 |   0 | nan     | nan
+marine veteran                |       1 |     1 |   0 |   1 | 0.000   | nan
+black men                     |       0 |     0 |   0 |   0 | nan     | nan
+extremists                    |       3 |     3 |   0 |   3 | 0.000   | nan
+disinformation                |       1 |     1 |   0 |   1 | 0.000   | nan
+sexual assault                |       0 |     0 |   0 |   0 | nan     | nan
+seditious conspiracy          |       0 |     0 |   0 |   0 | nan     | nan
+fascists                      |       1 |     1 |   0 |   1 | 0.000   | nan
+mass shootings                |       0 |     0 |   0 |   0 | nan     | nan
+law enforcement               |       0 |     0 |   0 |   0 | nan     | nan
+genocide                      |       0 |     0 |   0 |   0 | nan     | nan
+fascism                       |       0 |     0 |   0 |   0 | nan     | nan
+extremism                     |       0 |     0 |   0 |   0 | nan     | nan
+laws                          |       5 |     5 |   4 |   1 | 0.800   | 0.250
+mom                           |       0 |     0 |   0 |   0 | nan     | nan
+social security               |       2 |     2 |   2 |   0 | 1.000   | 0.000
+governor                      |       0 |     0 |   0 |   0 | nan     | nan
+desantis                      |       9 |     9 |   0 |   9 | 0.000   | nan
+liberty                       |       0 |     0 |   0 |   0 | nan     | nan
+ron desantis                  |       1 |     1 |   0 |   1 | 0.000   | nan
+magas                         |       1 |     1 |   0 |   1 | 0.000   | nan
+mass shooting                 |       0 |     0 |   0 |   0 | nan     | nan
+gun violence                  |       1 |     1 |   0 |   1 | 0.000   | nan
+propaganda                    |       1 |     1 |   0 |   1 | 0.000   | nan
+kid                           |       0 |     0 |   0 |   0 | nan     | nan
+peace                         |       1 |     1 |   1 |   0 | 1.000   | 0.000
+proof                         |       0 |     0 |   0 |   0 | nan     | nan
+white media                   |       0 |     0 |   0 |   0 | nan     | nan
+facts                         |       0 |     0 |   0 |   0 | nan     | nan
+white supremacist beliefs     |       0 |     0 |   0 |   0 | nan     | nan
+evidence                      |       0 |     0 |   0 |   0 | nan     | nan
+texas mall shooter            |       0 |     0 |   0 |   0 | nan     | nan
+republican party              |       1 |     1 |   0 |   1 | 0.000   | nan
+churches                      |       0 |     0 |   0 |   0 | nan     | nan
+lives                         |       0 |     0 |   0 |   0 | nan     | nan
+george floyd                  |       2 |     2 |   2 |   0 | 1.000   | 0.000
+black lives                   |       1 |     1 |   1 |   0 | 1.000   | 0.000
+racial justice                |       0 |     0 |   0 |   0 | nan     | nan
+black community               |       0 |     0 |   0 |   0 | nan     | nan
+deaths                        |       0 |     0 |   0 |   0 | nan     | nan
+equality                      |       0 |     0 |   0 |   0 | nan     | nan
+floyd                         |       0 |     0 |   0 |   0 | nan     | nan
+george floyds                 |       0 |     0 |   0 |   0 | nan     | nan
+michael brown                 |       0 |     0 |   0 |   0 | nan     | nan
+protests                      |       2 |     2 |   0 |   2 | 0.000   | nan
+black liberation organization |       0 |     0 |   0 |   0 | nan     | nan
+black families                |       0 |     0 |   0 |   0 | nan     | nan
+gop                           |      11 |    11 |   0 |  11 | 0.000   | nan
+medicare                      |       1 |     1 |   1 |   0 | 1.000   | 0.000
+healthcare                    |       0 |     0 |   0 |   0 | nan     | nan
+medicaid                      |       0 |     0 |   0 |   0 | nan     | nan
+maga gop                      |       1 |     1 |   0 |   1 | 0.000   | nan
+house republicans             |       1 |     1 |   0 |   1 | 0.000   | nan
+antiblack racism              |       0 |     0 |   0 |   0 | nan     | nan
+white nationalists            |       1 |     1 |   0 |   1 | 0.000   | nan
+freedom                       |       1 |     1 |   1 |   0 | 1.000   | 0.000
+christianity                  |       2 |     2 |   0 |   2 | 0.000   | nan
+civil rights                  |       0 |     0 |   0 |   0 | nan     | nan
+kevin mccarthy                |       1 |     1 |   0 |   1 | 0.000   | nan
+mccarthy                      |       1 |     1 |   0 |   1 | 0.000   | nan
+voters                        |       1 |     1 |   1 |   0 | 1.000   | 0.000
+donald trump                  |       2 |     2 |   0 |   2 | 0.000   | nan
+donald                        |       2 |     2 |   0 |   2 | 0.000   | nan
+govt                          |       0 |     0 |   0 |   0 | nan     | nan
+trumps                        |       0 |     0 |   0 |   0 | nan     | nan
+tim scott                     |       2 |     2 |   0 |   2 | 0.000   | nan
+baby                          |       0 |     0 |   0 |   0 | nan     | nan
+life                          |       0 |     0 |   0 |   0 | nan     | nan
+gops                          |       0 |     0 |   0 |   0 | nan     | nan
+racial slurs                  |       0 |     0 |   0 |   0 | nan     | nan
+misogyny                      |       2 |     2 |   0 |   2 | 0.000   | nan
+vote                          |       1 |     1 |   0 |   1 | 0.000   | nan
+tucker                        |       0 |     0 |   0 |   0 | nan     | nan
+tucker carlson                |       0 |     0 |   0 |   0 | nan     | nan
+violent mob                   |       0 |     0 |   0 |   0 | nan     | nan
+blm protester                 |       0 |     0 |   0 |   0 | nan     | nan
+daniel perry                  |       0 |     0 |   0 |   0 | nan     | nan
+march                         |       0 |     0 |   0 |   0 | nan     | nan
+abbott                        |       0 |     0 |   0 |   0 | nan     | nan
+greg abbott                   |       0 |     0 |   0 |   0 | nan     | nan
+black children                |       0 |     0 |   0 |   0 | nan     | nan
+white mob                     |       0 |     0 |   0 |   0 | nan     | nan
+black lives matter            |       0 |     0 |   0 |   0 | nan     | nan
+judge                         |       0 |     0 |   0 |   0 | nan     | nan
+sexism                        |       0 |     0 |   0 |   0 | nan     | nan
+
+Totals:
+  total samples: 280
+  total known labels (all aspects): 609
+  total positives: 112
+  total negatives: 497
+
+Least-labeled aspects:
+  shooting -> known=1, present=1
+  border -> known=1, present=1
+  african americans -> known=1, present=1
+  democrat party -> known=1, present=1
+  whites -> known=1, present=1
+  black vote -> known=1, present=1
+  domestic terrorist -> known=1, present=1
+  white americans -> known=1, present=1
+  christians -> known=1, present=1
+  border crisis -> known=1, present=1
+
+Most-labeled aspects:
+  racist -> known=65, present=65
+  maga -> known=29, present=29
+  trump -> known=26, present=26
+  violence -> known=26, present=26
+  white supremacist -> known=23, present=23
+  christian -> known=20, present=20
+  killing -> known=19, present=19
+  blm -> known=18, present=18
+  crime -> known=17, present=17
+  democrats -> known=17, present=17
