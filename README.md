@@ -30,7 +30,6 @@ Key dataset visualizations are shown below to illustrate class distribution, pol
 	</tr>
 	<tr>
 		<td align="center"><img src="Ark_Aspect_Stance_Detection/Inference/DatasetPlots/mixed_aspects_stacked_proportion_top25.png" alt="Mixed aspects stacked proportion" width="420" /></td>
-		<td align="center"><img src="Ark_Aspect_Stance_Detection/media/Ark_logo.png" alt="Project logo" width="420" /></td>
 	</tr>
 </table>
 
