@@ -1,0 +1,273 @@
+Aspect                         totals     pro_labels   anti_labels 
+----------------------------------------------------------------------
+white supremacists             2372       0            2372        
+lie                            66         0            66          
+killer                         246        0            246         
+white supremacist              4642       0            4642        
+mass shooter                   55         0            55          
+shooter                        789        0            789         
+violence                       3122       0            3122        
+border                         70         70           0           
+shooting                       279        0            279         
+human trafficking              3          0            3           
+killing                        1505       0            1505        
+murderer                       116        0            116         
+lies                           66         0            66          
+terrorists                     581        0            581         
+murder                         1708       0            1708        
+crimes                         594        0            594         
+false narrative                10         0            10          
+false flag                     19         0            19          
+terror                         141        0            141         
+psyops                         6          0            6           
+chokehold                      124        0            124         
+racist                         9597       0            9597        
+black americans                1062       816          246         
+african american               85         0            85          
+democrats                      2161       77           2084        
+african americans              99         0            99          
+systemic racism                383        0            383         
+white americans                36         36           0           
+institutional racism           1          0            1           
+joe biden                      619        0            619         
+biden                          2322       0            2322        
+crime                          3191       0            3191        
+domestic terrorist             93         0            93          
+racists                        616        0            616         
+democrat                       1017       24           993         
+biden administration           14         0            14          
+economy                        250        250          0           
+criminals                      443        0            443         
+segregation                    287        0            287         
+whites                         289        289          0           
+joe                            524        0            524         
+white race                     17         17           0           
+black vote                     95         0            95          
+white people                   399        373          26          
+democrat party                 161        0            161         
+newsom                         44         0            44          
+democratic party               95         0            95          
+dem                            69         0            69          
+white women                    36         36           0           
+white folks                    34         34           0           
+white person                   29         29           0           
+apartheid                      69         0            69          
+patriot                        19         19           0           
+christian                      2993       744          2249        
+liberals                       116        60           56          
+hate crime                     145        0            145         
+republicans                    2214       44           2170        
+republican                     1024       32           992         
+jane fonda                     222        0            222         
+christians                     396        21           375         
+climate change                 31         0            31          
+white men                      235        216          19          
+climate crisis                 191        0            191         
+school                         381        88           293         
+catholic                       69         69           0           
+schools                        164        46           118         
+university                     40         0            40          
+discrimination                 429        0            429         
+blm                            2192       0            2192        
+american                       305        305          0           
+mob                            422        0            422         
+justice                        686        686          0           
+americans                      390        390          0           
+black people                   923        923          0           
+domestic terrorists            168        0            168         
+murders                        306        0            306         
+woke                           240        0            240         
+america                        89         89           0           
+patriots                       39         39           0           
+diversity                      69         55           14          
+inclusion                      27         24           3           
+family                         294        294          0           
+families                       42         42           0           
+dems                           41         36           5           
+white house                    826        0            826         
+border crisis                  83         0            83          
+corruption                     164        0            164         
+house                          784        762          22          
+american people                20         20           0           
+protest                        99         26           73          
+bbc                            16         0            16          
+netflix                        9          0            9           
+race card                      9          0            9           
+trump                          4954       360          4594        
+president trump                25         25           0           
+obama                          186        0            186         
+bill clinton                   34         0            34          
+bill                           224        0            224         
+kkk                            703        0            703         
+blacks                         248        248          0           
+confederacy                    21         0            21          
+antifa                         1530       199          1331        
+maga                           3801       49           3752        
+j6                             134        0            134         
+insurrection                   704        0            704         
+fbi                            41         0            41          
+girls                          30         30           0           
+hindus                         1          1            0           
+police brutality               137        0            137         
+constitution                   4          0            4           
+riot                           74         0            74          
+rioters                        70         0            70          
+riots                          235        0            235         
+2020 riots                     185        0            185         
+protesters                     44         3            41          
+law                            871        465          406         
+terrorism                      264        0            264         
+antifa trans                   1          0            1           
+jesus                          33         33           0           
+faith                          11         11           0           
+illegals                       29         0            29          
+bidens                         17         0            17          
+justice system                 6          6            0           
+illegal immigrants             10         0            10          
+dangerous terrorist threat     33         0            33          
+white america                  22         8            14          
+lynching                       139        0            139         
+culture                        4          4            0           
+steve bannon                   2          2            0           
+democracy                      759        759          0           
+racist country                 87         0            87          
+injustice                      19         0            19          
+white nationalism              72         0            72          
+domestic terrorism             88         0            88          
+manufactured crisis            179        0            179         
+maga republicans               360        0            360         
+veterans                       159        159          0           
+education                      62         62           0           
+health care                    67         67           0           
+jobs                           77         77           0           
+student                        20         20           0           
+books                          440        440          0           
+kids                           286        286          0           
+book                           585        585          0           
+children                       468        468          0           
+child                          155        155          0           
+conservatives                  122        0            122         
+jordan neely                   570        570          0           
+white man                      61         0            61          
+black man                      146        146          0           
+death                          464        0            464         
+daniel penny                   173        0            173         
+homeless black man             11         11           0           
+homeless                       84         84           0           
+jordan neelys                  5          5            0           
+marine veteran                 31         0            31          
+black men                      19         19           0           
+extremists                     152        0            152         
+disinformation                 28         0            28          
+sexual assault                 58         0            58          
+seditious conspiracy           24         0            24          
+fascists                       133        0            133         
+mass shootings                 157        0            157         
+law enforcement                107        0            107         
+genocide                       189        0            189         
+fascism                        125        0            125         
+extremism                      36         0            36          
+laws                           490        271          219         
+mom                            39         0            39          
+social security                108        108          0           
+governor                       105        0            105         
+desantis                       837        0            837         
+liberty                        9          9            0           
+ron desantis                   197        0            197         
+magas                          59         0            59          
+mass shooting                  47         0            47          
+gun violence                   403        0            403         
+propaganda                     180        0            180         
+kid                            23         23           0           
+peace                          13         13           0           
+proof                          39         39           0           
+white media                    9          0            9           
+facts                          20         20           0           
+white supremacist beliefs      18         0            18          
+evidence                       52         52           0           
+texas mall shooter             14         0            14          
+republican party               167        0            167         
+churches                       9          9            0           
+lives                          35         35           0           
+george floyd                   338        338          0           
+black lives                    64         64           0           
+racial justice                 35         35           0           
+black community                106        106          0           
+deaths                         11         0            11          
+equality                       15         15           0           
+floyd                          50         50           0           
+george floyds                  2          2            0           
+michael brown                  6          6            0           
+protests                       216        49           167         
+black liberation organization  4          4            0           
+black families                 2          2            0           
+gop                            1854       0            1854        
+medicare                       53         53           0           
+healthcare                     71         71           0           
+medicaid                       30         30           0           
+maga gop                       172        0            172         
+house republicans              26         0            26          
+antiblack racism               3          0            3           
+white nationalists             161        0            161         
+freedom                        82         82           0           
+christianity                   173        0            173         
+civil rights                   31         31           0           
+kevin mccarthy                 143        0            143         
+mccarthy                       54         0            54          
+voters                         244        244          0           
+donald trump                   349        0            349         
+donald                         141        0            141         
+govt                           23         0            23          
+trumps                         55         0            55          
+tim scott                      89         0            89          
+baby                           12         12           0           
+life                           16         16           0           
+gops                           1          0            1           
+racial slurs                   1          0            1           
+misogyny                       334        0            334         
+vote                           123        0            123         
+tucker                         63         0            63          
+tucker carlson                 134        0            134         
+violent mob                    7          0            7           
+blm protester                  13         13           0           
+daniel perry                   30         0            30          
+march                          28         28           0           
+abbott                         14         0            14          
+greg abbott                    15         0            15          
+black children                 13         13           0           
+white mob                      21         0            21          
+black lives matter             59         59           0           
+judge                          20         0            20          
+sexism                         11         0            11          
+----------------------------------------------------------------------
+Total samples                  87359      14340        73019       
+
+
+Non-polarized Aspects (have both 'pro' and 'anti' labels):
+Aspect                         pro_labels   anti_labels 
+------------------------------------------------------------
+black americans                816          246         
+democrats                      77           2084        
+democrat                       24           993         
+white people                   373          26          
+christian                      744          2249        
+liberals                       60           56          
+republicans                    44           2170        
+republican                     32           992         
+christians                     21           375         
+white men                      216          19          
+school                         88           293         
+schools                        46           118         
+diversity                      55           14          
+inclusion                      24           3           
+dems                           36           5           
+house                          762          22          
+protest                        26           73          
+trump                          360          4594        
+antifa                         199          1331        
+maga                           49           3752        
+protesters                     3            41          
+law                            465          406         
+white america                  8            14          
+laws                           271          219         
+protests                       49           167         

@@ -55,4 +55,5 @@ python -u main_ark.py \
 
  python3 -u main_ark.py --data_set unMaskedABSA_race --model stance_bert --unmasked
 
- python3 -u main_ark.py --data_set MaskedABSA_race
+Experiment Individual Baseline:
+python3 -u main_ark.py --data_set MaskedABSA_race --individual --exp_name MaskedABSA_race_individual

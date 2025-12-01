@@ -8,7 +8,13 @@ import torch.nn as nn
 import copy
 from transformers import BertTokenizerFast
 from typing import Dict, Any, List
-
+import os
+import math
+import pandas as pd
+import numpy as np
+import matplotlib
+matplotlib.use("Agg")  # safe for headless runs (servers/venvs)
+import matplotlib.pyplot as plt
 
 def get_config(config):
     with open(config, 'r') as stream:
@@ -314,3 +320,160 @@ def collate_fn_masked(examples: List[Dict[str, Any]]) -> Dict[str, torch.Tensor]
             "mask_index": mask_index  
         }
     return batch
+
+def count_aspect_occurrences(dataset_list, aspect_list):
+    aspect_postive_count = [0]*len(aspect_list)
+    aspect_negative_count = [0]*len(aspect_list)
+
+    # Count occurrences of each aspect with 'pro' and 'anti' stances
+    for dataset in dataset_list:
+        for sample in dataset:
+            sample_word_vector = sample['word_one_hot_vector']
+            word_index = sample_word_vector.tolist().index(1.0)
+            stance_label = sample['stance_label']
+            if stance_label == 'pro':
+                aspect_postive_count[word_index] += 1
+            elif stance_label == 'anti':
+                aspect_negative_count[word_index] += 1
+            else:
+                raise ValueError("stance_label must be one of 'pro' or 'anti'")
+
+
+
+    return aspect_postive_count, aspect_negative_count
+
+def generate_plots(save_path: str, aspect_list, aspect_positive_count, aspect_negative_count, top_n_polarized: int = 25, top_mixed_for_stack: int = 30, also_scatter: bool = True):
+    """
+    Generate plots using pre-extracted counts.
+
+    Parameters
+    ----------
+    save_path : str
+        Directory to save plots.
+    aspect_list : list[str]
+        Aspect names in the same order as counts.
+    aspect_positive_count : list[int]
+        Pro label counts aligned to aspect_list.
+    aspect_negative_count : list[int]
+        Anti label counts aligned to aspect_list.
+    top_n_polarized : int
+        Number of aspects to show in the diverging bar (by |pro-anti|).
+    top_mixed_for_stack : int
+        Max number of mixed (pro>0 & anti>0) aspects to show in stacked chart (by total).
+    also_scatter : bool
+        If True, saves a pro-vs-anti scatter plot as well.
+    """
+
+    os.makedirs(save_path, exist_ok=True)
+
+    # Build DataFrame from counts
+    df = pd.DataFrame({
+        "aspect": aspect_list,
+        "pro": aspect_positive_count,
+        "anti": aspect_negative_count
+    })
+    df["total"] = df["pro"] + df["anti"]
+    # Polarization metrics
+    df["diff"] = df["pro"] - df["anti"]
+    df["abs_diff"] = df["diff"].abs()
+    # Shares (avoid division by zero)
+    safe_total = df["total"].replace(0, np.nan)
+    df["pro_share"] = df["pro"] / safe_total
+    df["anti_share"] = df["anti"] / safe_total
+
+    # -------------------------------
+    # 1) Diverging Bar: polarization
+    # -------------------------------
+    df_pol = df.sort_values("abs_diff", ascending=False).head(top_n_polarized).copy()
+    # Colors: anti-heavy = red, pro-heavy = green
+    colors = df_pol["diff"].apply(lambda x: "#d73027" if x < 0 else "#1a9850")
+
+    plt.figure(figsize=(12, max(6, 0.35 * len(df_pol))))
+    plt.barh(df_pol["aspect"], df_pol["diff"], color=colors, edgecolor="none")
+    plt.axvline(0, color="black", lw=0.8)
+    plt.gca().invert_yaxis()
+
+    plt.title(f"Top {len(df_pol)} Most Polarized Aspects (Pro − Anti)")
+    plt.xlabel("Pro − Anti (count difference)")
+    plt.ylabel("Aspect")
+
+    # Annotate with signed difference and (optional) totals
+    max_span = max(1, df_pol["abs_diff"].max())
+    pad = 0.02 * max_span
+    for y, (val, tot) in enumerate(zip(df_pol["diff"], df_pol["total"])):
+        ha = "left" if val > 0 else "right"
+        x = val + (pad if val > 0 else -pad)
+        plt.text(x, y, f"{val:+d}  (n={int(tot)})", va="center", ha=ha, fontsize=9)
+
+    plt.tight_layout()
+    diverging_path = os.path.join(save_path, f"polarization_diverging_top{len(df_pol)}.png")
+    plt.savefig(diverging_path, dpi=200)
+    plt.close()
+
+    # ----------------------------------------------------
+    # 2) Stacked proportion bars for mixed (pro & anti)
+    # ----------------------------------------------------
+    mixed = df[(df["pro"] > 0) & (df["anti"] > 0)].copy()
+    # For readability, keep top by total
+    mixed = mixed.sort_values("total", ascending=False).head(top_mixed_for_stack)
+
+    # Horizontal stacked bars (0..1)
+    plt.figure(figsize=(12, max(6, 0.35 * len(mixed))))
+    # Replace NaNs (if any) to 0 for plotting
+    mixed["pro_share"] = mixed["pro_share"].fillna(0)
+    mixed["anti_share"] = mixed["anti_share"].fillna(0)
+
+    # Plot pro then anti as stacked segments
+    plt.barh(mixed["aspect"], mixed["pro_share"], label="Pro", edgecolor="none")
+    plt.barh(mixed["aspect"], mixed["anti_share"], left=mixed["pro_share"], label="Anti", edgecolor="none")
+
+    plt.gca().invert_yaxis()
+    plt.xlim(0, 1)
+    plt.xlabel("Share within aspect (Proportion)")
+    plt.ylabel("Aspect")
+    plt.title(f"Mixed Aspects: Pro vs Anti Distribution (Top {len(mixed)} by total)")
+    plt.legend(loc="lower right")
+
+    # Annotate exact shares and totals
+    for y, (p, a, t) in enumerate(zip(mixed["pro_share"], mixed["anti_share"], mixed["total"])):
+        # center of pro segment
+        if p > 0.05:
+            plt.text(p / 2, y, f"{p:.0%}", va="center", ha="center", fontsize=8, color="white")
+        # center of anti segment
+        if a > 0.05:
+            plt.text(p + a / 2, y, f"{a:.0%}", va="center", ha="center", fontsize=8, color="white")
+        # show total at end of bar
+        plt.text(1.01, y, f"n={int(t)}", va="center", ha="left", fontsize=8)
+
+    plt.tight_layout()
+    mixed_stack_path = os.path.join(save_path, f"mixed_aspects_stacked_proportion_top{len(mixed)}.png")
+    plt.savefig(mixed_stack_path, dpi=200, bbox_inches="tight")
+    plt.close()
+
+    # ---------------------------------------
+    # 3) (Optional) Pro vs Anti scatter plot
+    # ---------------------------------------
+    if also_scatter:
+        plt.figure(figsize=(8, 7))
+        # bubble size scales with total (tweak factor for visibility)
+        sizes = np.clip(df["total"], 1, None)
+        s = 50 * np.sqrt(sizes / sizes.max())  # gentle scaling
+
+        plt.scatter(df["pro"], df["anti"], s=s, alpha=0.7)
+        # diagonal reference
+        lim = max(df["pro"].max(), df["anti"].max(), 1)
+        plt.plot([0, lim], [0, lim], linestyle="--", linewidth=1)
+
+        plt.xlabel("Pro labels")
+        plt.ylabel("Anti labels")
+        plt.title("Aspect Sentiment Scatter (size ∝ total)")
+        plt.tight_layout()
+        scatter_path = os.path.join(save_path, "pro_vs_anti_scatter.png")
+        plt.savefig(scatter_path, dpi=200)
+        plt.close()
+
+    # Optionally, save a CSV snapshot for debugging / inspection
+    df_out = df.sort_values(["abs_diff", "total"], ascending=[False, False])
+    df_out.to_csv(os.path.join(save_path, "aspect_counts_with_metrics.csv"), index=False)
+
+    print(f"[OK] Saved plots to:\n- {diverging_path}\n- {mixed_stack_path}" + (f"\n- {scatter_path}" if also_scatter else ""))
