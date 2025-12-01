@@ -1,35 +1,38 @@
 # Ark Stance Detection
 
-Small research project for stance detection and aspect-masked ABSA experiments.
+Research project exploring the performance gains of using ARK foundation model on aspect based stance detection and sentiment analysis.
 
 ## Performance summary
 
 Below are selected performance plots summarizing model comparisons (AUC / accuracy) from the project. These give a quick visual overview of results.
 
-<!-- Performance plots -->
-<p align="center">
-	<img src="Ark_Aspect_Stance_Detection/Inference/PerformancePlots/race_auc_comparison.png" alt="Race AUC comparison" width="480" />
-	<img src="Ark_Aspect_Stance_Detection/Inference/PerformancePlots/politic_auc_comparison.png" alt="Politic AUC comparison" width="480" />
-</p>
-
-<p align="center">
-	<img src="Ark_Aspect_Stance_Detection/Inference/PerformancePlots/race_accuracy_comparison.png" alt="Race accuracy comparison" width="480" />
-	<img src="Ark_Aspect_Stance_Detection/Inference/PerformancePlots/politic_accuracy_comparison.png" alt="Politic accuracy comparison" width="480" />
-</p>
+<!-- Performance plots as 2x2 grid -->
+<table>
+	<tr>
+		<td align="center"><img src="Ark_Aspect_Stance_Detection/Inference/PerformancePlots/race_auc_comparison.png" alt="Race AUC comparison" width="420" /></td>
+		<td align="center"><img src="Ark_Aspect_Stance_Detection/Inference/PerformancePlots/politic_auc_comparison.png" alt="Politic AUC comparison" width="420" /></td>
+	</tr>
+	<tr>
+		<td align="center"><img src="Ark_Aspect_Stance_Detection/Inference/PerformancePlots/race_accuracy_comparison.png" alt="Race accuracy comparison" width="420" /></td>
+		<td align="center"><img src="Ark_Aspect_Stance_Detection/Inference/PerformancePlots/politic_accuracy_comparison.png" alt="Politic accuracy comparison" width="420" /></td>
+	</tr>
+</table>
 
 ## Dataset statistics
 
 Key dataset visualizations are shown below to illustrate class distribution, polarization and aspect composition.
 
-<!-- Dataset plots -->
-<p align="center">
-	<img src="Ark_Aspect_Stance_Detection/Inference/DatasetPlots/pro_vs_anti_scatter.png" alt="Pro vs Anti scatter" width="480" />
-	<img src="Ark_Aspect_Stance_Detection/Inference/DatasetPlots/polarization_diverging_top25.png" alt="Polarization top25" width="480" />
-</p>
-
-<p align="center">
-	<img src="Ark_Aspect_Stance_Detection/Inference/DatasetPlots/mixed_aspects_stacked_proportion_top25.png" alt="Mixed aspects stacked proportion" width="800" />
-</p>
+<!-- Dataset plots as 2x2 grid; use project logo as a fourth image placeholder -->
+<table>
+	<tr>
+		<td align="center"><img src="Ark_Aspect_Stance_Detection/Inference/DatasetPlots/pro_vs_anti_scatter.png" alt="Pro vs Anti scatter" width="420" /></td>
+		<td align="center"><img src="Ark_Aspect_Stance_Detection/Inference/DatasetPlots/polarization_diverging_top25.png" alt="Polarization top25" width="420" /></td>
+	</tr>
+	<tr>
+		<td align="center"><img src="Ark_Aspect_Stance_Detection/Inference/DatasetPlots/mixed_aspects_stacked_proportion_top25.png" alt="Mixed aspects stacked proportion" width="420" /></td>
+		<td align="center"><img src="Ark_Aspect_Stance_Detection/media/Ark_logo.png" alt="Project logo" width="420" /></td>
+	</tr>
+</table>
 
 
 ## Repo layout
